@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #171010;
+    background: url(https://images.unsplash.com/photo-1528734445284-16e92a7c5652?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.container{
+    position: relative;
+    top: 50%;
+    background-color: transparent;
+    border: 1px solid gray;
+    backdrop-filter: blur(10px);
+    height: 80vh;
+    width: 70vw;
+    border-radius: 10px;
+    padding: 15px;
+}
+/* background-color: #F6E9E9; */
+input{
+    height: 4.5vh;
+    width: 30vw;
+    text-align: center;
+    border-radius: 5px;
+    color: #171010;
+    background-color: transparent;
+    border: 1px solid gray;
+    backdrop-filter: blur(5px);
+}
+.container h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 4vh;
+}
+.container ul{
+    /* position: absolute; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 3vh;
+    gap: 2vh;
+}
+.container ul button:nth-child(2){
+    background-color: rgba(255, 0, 0, 0.854);
+    margin-left: 1.2vw;
+    text-align: center;
+    height: 5.9vh;
+}
+.container ul button:nth-child(3){
+    background-color: #87431D;
+    margin-left: 1.2vw;
+    height: 5.9vh;
+
+}
+.container ul button:nth-child(4){
+    background-color: #C87941;
+    margin-left: 1.2vw;
+    height: 5.9vh;
+
+}
+.footer-btn{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+.footer-btn button{
+    background-color: #6e3453;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    box-shadow: 0 0 5px #6e3453, 0 0 15px #6e3453, 0 0 25px #6e3453, 0 0 100px #6e3453;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
